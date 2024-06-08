@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>blog card</title><style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    body{
+    background:#E5BB4B;
+    }
+    .containt{
+      background: #FFFFFF;
+      display:block;
+      width:50%;
+      height:400px;
+      border:1px solid gray;
+      margin:20% auto 50%;
+      border-radius: 10px;
+      box-shadow: 10px 10px 0px black;
+      padding:20px;
+    }
+    
+    @media screen and (min-width:962px){
+      .containt{
+        height:500px;
+      }
+      
+    }
+    .img{
+      width:100%;
+      border-radius: 8px;
+    }
+    .span{
+      background: #E3BA4C;
+      font-size: 15px;
+      padding:8px;
+      border-radius: 5px;
+      margin: 10px 0px 10px 0px; 
+      width:55px;
+      font-weight: bold;
+    }
+    p{
+      font-size:15px;
+      margin:10px 0px 10px 0px;
+      color:gray;
+    }
+    b{
+      font-weight: bold;
+    }
+    .profile{
+      display:flex;
+      
+      
+    }
+    .profile img{
+      width:40px;
+      height:40px;
+      border-radius: 50%;
+    }
+    .profile b{
+      font-size: 18px;
+      margin:10px;
+    }
+    a{
+      text-decoration: none;
+      color:black;
+      transition: .3s;
+    }
+    a:hover{
+      color:#E5BB4B;
+    }
+  </style>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="containt">
+    <img src="illustration-article.svg" class="img" alt="illustration-article.svg">
+    
+
+<div class="span">
+  Learning
+</div> 
+  
+  <p>Published 21 Dec 2023</p>
+  <b>
+<a href="#">HTML & CSS foundations</a></b>
+  <p>
+  These languages are the backbone of every website, defining structure, content, and presentation.
+  </p>
+  
+  <div class="profile"><img src="image-avatar.png" alt="image-avatar.png"><b>
+  Hamoud Limam</b></div></div>
+  <script src="main.js"></script>
+</body>
+</html>
